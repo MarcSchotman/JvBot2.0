@@ -1,4 +1,10 @@
 from binance.client import Client
+import os
+import sys
+functionsLocation = os.path.join(os.getcwd(), 'Something_special')
+sys.path.insert(0, functionsLocation)
+from get_keys import get_keys
+api_key, api_secret = get_keys()
 
 client = Client(api_key, api_secret)
 
