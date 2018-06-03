@@ -5,7 +5,7 @@ functionsLocation = os.path.join(os.getcwd(), 'Something_special')
 sys.path.insert(0, functionsLocation)
 
 #GETS KEYS FROM SECRET FOLDER: 'Something_special'. WRITE IN EXACTLY THIS FOLDER NAME(!!) 
-#This folder is ignored by github so that we dont go tammy on this shit
+#This folder is ignored by github so that we dont go tammy on this shit i.e. -50k
 from get_keys import get_keys
 api_key, api_secret = get_keys()
 
